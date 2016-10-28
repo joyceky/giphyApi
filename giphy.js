@@ -10,7 +10,7 @@ $(function() {
         var search = $('#s').val();
         search = search.replace(/\s+/g, '');
         content.innerHTML = "";
-
+        $('#s').val('');
         var giphyAPI = 'http://api.giphy.com/v1/gifs/search?q=' + search + '&api_key=dc6zaTOxFJmzC';
         // Make a ajax call to get the json data as data.
         $.getJSON(giphyAPI, function(data) {
