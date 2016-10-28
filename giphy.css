@@ -1,0 +1,39 @@
+#container {
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    background-color: rgba(137, 144, 164, 0.2);
+}
+
+h1 {
+    font-family: "Comfortaa";
+    font-size: 64px;
+    font-weight: 700;
+    color: rgb(16, 13, 50);
+}
+
+#s {
+    height: 40px;
+    width: 150px;
+    font-family: "Maven Pro";
+    font-size: 24px;
+    font-weight: 400;
+    padding: 10px;
+    color: rgb(38, 12, 125);
+}
+
+.gif {
+    height: 300px;
+    width: auto;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+#footerGif {
+    width: 300px;
+    position: relative;
+    padding: 100px;
+}
